@@ -11,7 +11,7 @@ function retrieveEmployeeInformation() {
 };
 
 function addNewElementAsLi() {
-
+  $('.employee-list li').append(retrieveEmployeeInformation());
 };
 
 function addNewLiOnClick() {
