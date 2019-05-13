@@ -11,7 +11,7 @@ function retrieveEmployeeInformation() {
 };
 
 function addNewElementAsLi() {
-
+  document.querySelector('ul.employee-list').append(retrieveEmployeeInformation());
 };
 
 function addNewLiOnClick() {
