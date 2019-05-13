@@ -7,7 +7,7 @@ function preventRefreshOnSubmit(){
 preventRefreshOnSubmit()
 
 function retrieveEmployeeInformation() {
-  return "$('input value')";
+  return $(':input[type="text"]');
 };
 
 function addNewElementAsLi() {
