@@ -11,7 +11,8 @@ function retrieveEmployeeInformation() {
 };
 
 function addNewElementAsLi() {
-  $("ul.employee-list").append($(<li>).append($("retrieveEmployeeInformation()"));
+  $("ul.employee-list").append($(<li>).
+  append($("retrieveEmployeeInformation()"));
 };
 
 function addNewLiOnClick() {
